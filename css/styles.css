@@ -1,0 +1,5 @@
+
+
+.body-initial {background-color: rgba(0,0,0,1); position: static;}@media only screen and (max-width: 480px) {}
+.text-element > .silex-element-content {font-family: 'Roboto', sans-serif;}
+.website-width {width: nullpx;}@media (min-width: 481px) {.silex-editor {min-width: 200px;}}body.silex-runtime {opacity: 1;}
