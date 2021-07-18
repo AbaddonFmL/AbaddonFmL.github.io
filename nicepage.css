@@ -19978,7 +19978,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto,sans-serif;
+  font-family: Merriweather,serif;
 }
 /*end-variables font-family*/
 /*begin-variables color*/
@@ -20001,7 +20001,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Roboto,sans-serif !important;
+  font-family: Merriweather,serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -33978,11 +33978,13 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h3
         {
-        font-weight: 400;
         font-size: 1.875rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 700;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         h4
         {
@@ -34222,31 +34224,28 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 75px;
+  min-height: 150px;
+}
+
+.u-header .u-text-1 {
+  background-image: none;
+  animation-duration: 3500ms;
+  margin: 57px 0 60px;
+}
+@media (max-width: 1199px) {
+  .u-header .u-text-1 {
+    font-weight: 400;
+  }
 }
 
 
-@media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 352px;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 152px;
-  }
-}
+
 .u-footer {
   background-image: none;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
-}
-
-.u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
+  min-height: 75px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
@@ -34266,10 +34265,6 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
     min-height: 36px;
-  }
-
-  .u-footer .u-text-1 {
-    width: 340px;
   }
 }
 
