@@ -102,8 +102,6 @@
 
 .u-container-layout.hover .u-section-1 .u-image-2 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
-}.u-section-2 .u-sheet-1 {
-  min-height: 650px;
 }@font-face {
   font-family: 'Vogue';
   font-style: normal;
